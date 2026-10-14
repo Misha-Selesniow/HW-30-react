@@ -1,0 +1,19 @@
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-list__empty {
+  margin: 0;
+  padding: 18px 12px;
+  border-radius: 9px;
+  background: #f6f8f6;
+  color: #78867d;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+}

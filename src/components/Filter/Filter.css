@@ -1,0 +1,43 @@
+.filter {
+  position: relative;
+  display: block;
+  margin: -3px 0 18px;
+}
+
+.filter__icon {
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  color: #84938a;
+  font-size: 22px;
+  line-height: 1;
+  transform: translateY(-55%);
+}
+
+.filter__input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 13px 0 42px;
+  border: 1px solid #e3e9e4;
+  border-radius: 9px;
+  outline: none;
+  background: #fbfcfb;
+  color: #203a2e;
+  font: inherit;
+  font-size: 13px;
+}
+
+.filter__input:focus {
+  border-color: #789a80;
+  box-shadow: 0 0 0 3px rgb(120 154 128 / 12%);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
